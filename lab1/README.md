@@ -18,7 +18,14 @@ If you do not, please use the desktops in the robotics lab area.
 1. Collect a robot arm kit from the instructors.  
 Fill out the included packing slip to confirm you recieved all necessary parts.  
 
-2. Configure your Docker install to work with Nvidia GPUs:  
+2. Clone this repo with the following command:
+    ```bash
+    git clone --recursive https://github.com/GIXLabs/TECHIN517.git
+    ```
+    The `--rescursive` option also clones the included dependencies.  
+    The scripts in this repo will not work properly without them.  
+
+3. Configure your Docker install to work with Nvidia GPUs:  
 Run the following command to make sure your GPU drivers are installed:  
     ```bash
     nvidia-smi
@@ -27,7 +34,7 @@ Run the following command to make sure your GPU drivers are installed:
     Next you will need to install [Nvidia's container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
     Follow the instructions for Debian / Ubuntu.  
 
-3. Fill out the partial [Dockerfile](/docker/INCOMPLETE_Dockerfile).  
+4. Fill out the partial [Dockerfile](/docker/INCOMPLETE_Dockerfile).  
 Follow the `TODO` comments in the file.  
 You should not need to modify the `devcontainer.json` or `setup.sh` files.  
 Your `Dockerfile` should work with these other configurations to create a working dev environment.  
