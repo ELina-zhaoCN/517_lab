@@ -56,10 +56,7 @@ Use both the wrist-mounted camera and the overhead depth camera.
 Disable uploading your data to the cloud by running with this argument:  
 `--dataset.push_to_hub=False`  
 
-6. Train the policy after 25 examples.  
-Record a video of running inference after 25 examples
-
-7. Train the policy again after 50 total examples.  
+6. Train the policy again after 50 total examples.  
 Record a video of running inference after 50 examples
 
 
@@ -79,9 +76,7 @@ Please be patient with the other team(s) and assemble your arm as soon as possib
 Any time you need to use a new arm, you should be able to download the calibration.  
 If you need to update the calibration at any point, make sure to update the file in the drive as well. 
 
-6. Submit your video of running inference after training with 25 examples.
-
-7. Submit your video of running inference after training with 50 examples.
+6. Submit your video of running inference after training with 50 examples.
 
 
 ## FAQ
