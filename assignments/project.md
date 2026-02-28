@@ -97,7 +97,7 @@ Your project will be evaluated based on the following priorities:
 - Upload your model(s) to Huggingface
 - Github repo containing the following:
     - A .devcontainer with a Dockerfile and devcontainer.json purpose made for your project and your dependencies  
-    Theorhetically, anyone who downloads your repo should be able to use your robot using your container environment
+    Theoretically, anyone who downloads your repo should be able to use your robot using your container environment
     - All of your customized code required to use the robot
     - Contributions from all team members
     - A LICENSE file that complies with all dependencies' licenses

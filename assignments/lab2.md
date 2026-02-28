@@ -19,11 +19,16 @@ This will allow us to switch between multiple policies and classical control sys
 
 **Individually** 
 
-1. Write a rosetta contract for the SO101 robot arm
+1. Complete the rosetta contract for the SO101 robot arm in `soa_ros2/soa_rosetta/contracts`
 
 2. Complete the `action_relay_node.py` file in the `soa_rosetta` package
 
-3. Run your lerobot policy from lab 1 on a physical 
+3. Run your lerobot policy from lab 1 on a physical arm using ROS and the rosetta package.
+    In one terminal, bring-up your robot.  
+    In another terminal, start your action_node_relay.  
+    In a third terminal, start the rosetta policy server.  
+    Read through the [deploying policies section](/home/ubuntu/soa_dev/soa_ws/src/soa_ros2/soa_moveit_config) of the rosetta documentation to understand how to use the policy server.  
+    In a fourth terminal, send a goal to the policy server to complete the action you trained on.
 
 **As a project team**
 
@@ -48,3 +53,7 @@ This will allow us to switch between multiple policies and classical control sys
 
 
 ## Resources
+
+[Lerobot async inference server documentation](https://huggingface.co/docs/lerobot/async)  
+Rosetta runs its policy server using lerobot's built-in server system.  
+This could theoretically allow you run the policy on a separate powerful computer if you wanted to deploy the arms (or another robot) as a mobile system with less computing power.  
