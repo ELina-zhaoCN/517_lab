@@ -47,6 +47,9 @@
 - Teaching team check-in:
     - Discuss your application
     - Present your research
+        - How far have other people gone?
+        - Do the examples come from hobbyist, researchers, or a company?
+        - What challenges do you anticipate based on your research?  
     - Present an initial development plan:
         - How are you going to start?
         - How far would you like to get before the end of the quarter?
@@ -152,3 +155,4 @@ Their documentation is lacking and frustrating, so it is recommended to begin wi
 - [Making a burger](https://www.youtube.com/watch?v=oDJuD95Sua0)
 - [Making matcha tea](https://www.youtube.com/watch?v=FEa4-pXqAoE&t=2s)
 - [Playing in the dirt](https://www.linkedin.com/posts/isaac-blankenau_ros2-lerobot-robotlearning-activity-7387233936571056128-kPhn)
+- [Lamps that fold laundry](https://www.hello-lume.com/)

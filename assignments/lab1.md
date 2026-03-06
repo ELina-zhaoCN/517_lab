@@ -4,7 +4,18 @@ In this quarter, we will survey AI in robotics with robot arms.
 We will use the [SO101 arm](https://github.com/TheRobotStudio/SO-ARM100) to explore imitation learning, classical motion planning, computer vision, and reinforcement learning.  
 The first step is to assemble the arms and configure the working environment.  
 Many of the labs for this course assume you have a GPU that works with Nvidia technologies.  
+
 If you do not, please use the desktops in the robotics lab area.  
+Not all of the systems we will use this quarter require Linux and ROS.  
+You are encouraged to keep your training data stored in the cloud or on external storage in order to train lerobot models on your own devices.  
+This gives you the assurance that no one will interupt the training on a public desktop, and opens up school resources for other students to use.  
+To install Lerobot on your own device, follow the [conda instructions given on the Huggingface website](https://huggingface.co/docs/lerobot/en/installation).
+
+| | Lerobot | ROS | Isaac Sim |
+| - | - | - | - |
+| Linux | yes | yes | yes |
+| Mac | yes | no | no |
+| Windows | yes | no | yes |
 
 
 ## Learning Objectives
@@ -12,6 +23,22 @@ If you do not, please use the desktops in the robotics lab area.
 - Assemble and calibrate a robot arm.
 - Configure a Docker container to develop the arm with ROS, lerobot, and GPUs.
 - Train your first vision-language-action policy.
+
+
+## Given
+
+- [Docker](https://www.docker.com/) and [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers)  
+    Modern computing runs in containers.  
+    Without Docker, we would spend weeks dealing with minor version errors trying to install everything on everyone's disparate systems.  
+    Collaboration and deployment would be far more difficult.
+
+- [Lerobot](https://github.com/huggingface/lerobot)  
+    Huggingface has done incredible work developing a system for using many types of Vision-Language-Action (VLA) models on many types of robots.  
+    Without this, we would need the entire quarter to replicate these results.  
+    Instead we get to learn how to use VLAs to quickly develop and deploy intelligent robot systems.  
+
+- [SO101 Robot Arm](https://github.com/TheRobotStudio/SO-ARM100)  
+    The Robot Studio and a large community of open-source developers have already integrated this afforable arm into all the cutting-edge systems we will learn about this quarter, democratizing robot education.
 
 
 ## TODO
