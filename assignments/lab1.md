@@ -97,7 +97,8 @@ Run the following command to make sure your GPU drivers are installed:
     **Plan for training to take a few hours**  
     We will be training many policies this quarter.  
     By using your personal device(s) instead of school computers, you can train overnight and sleep easy knowing that no one will interfere with the process.  
-    Record a video of running your policy trained with 50 examples.
+    Record a video of running your policy trained with 50 examples.  
+    Lerobot has [many tools](https://huggingface.co/docs/lerobot/en/using_dataset_tools) for editing datasets if you need to remove an episode, or if you want to record in batches and merge them later.  
 
 7. Save your training dataset and trained policy for later:  
     We highly recommend using a large external hard drive or your school Google drive for all of the data this quarter.

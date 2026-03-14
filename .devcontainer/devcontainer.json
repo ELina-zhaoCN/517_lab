@@ -9,6 +9,8 @@
     "--network=host",
     "--gpus", "all",
     "-e", "DISPLAY=${localEnv:DISPLAY}",
+    "-e", "NVIDIA_DRIVER_CAPABILITIES=all",
+    "-e", "WGPU_BACKEND=gl",
     "-e", "LIBUSB_DEBUG=3"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/ubuntu/techin517,type=bind",
@@ -19,7 +21,9 @@
     "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
     "source=/dev,target=/dev,type=bind",
     "source=/etc/udev,target=/etc/udev,type=bind",
-    "source=/run/udev,target=/run/udev,type=bind,readonly"
+    "source=/run/udev,target=/run/udev,type=bind,readonly",
+    "source=${localWorkspaceFolder}/docker/bash_history.txt,target=/home/ubuntu/.bash_history,type=bind",
+    "source=/home/jhat@netid.washington.edu/soa_dev/soa_ws,target=/home/ubuntu/techin517/soa_ws,type=bind"
   ],
   "postStartCommand": "bash -lc '/home/ubuntu/techin517/docker/setup.sh'",
   "customizations": {
