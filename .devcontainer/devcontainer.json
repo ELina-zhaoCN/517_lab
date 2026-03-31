@@ -23,7 +23,6 @@
     "source=/etc/udev,target=/etc/udev,type=bind",
     "source=/run/udev,target=/run/udev,type=bind,readonly",
     "source=${localWorkspaceFolder}/docker/bash_history.txt,target=/home/ubuntu/.bash_history,type=bind",
-    "source=/home/jhat@netid.washington.edu/soa_dev/soa_ws,target=/home/ubuntu/techin517/soa_ws,type=bind"
   ],
   "postStartCommand": "bash -lc '/home/ubuntu/techin517/docker/setup.sh'",
   "customizations": {
